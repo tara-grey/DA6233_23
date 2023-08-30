@@ -1,0 +1,147 @@
+from turtle import *
+while True:
+  try:
+    c = str(input("what is your favorite color?: ")).lower()
+    if c == 'purple':
+        print("I know you are lying. Try again please.")
+        print("")
+    else:
+        color(c)
+        break
+  except:
+        print("make sure you spelled it correctly, left no spaces, and its not some way-too-specific color. Keep it to the basics please, thank you :)")
+        print("")
+
+x = 0
+
+def next(space):
+    global x
+    x += (space + 20)
+    up()
+    home()
+    forward(x)
+    down()
+
+print("if it doesn't work, make sure you are running it from your IDLE python, not any of your other python tools that you probably have now because you're cool with your new master's")
+
+forward(5)
+backward(10)
+home()
+left(90)
+forward(50)
+right(90)
+forward(5)
+backward(10)
+
+next(20)
+
+
+left(90)
+forward(50)
+right(90)
+forward(10)
+backward(20)
+
+next(0)
+
+left(90)
+forward(50)
+backward(25)
+right(90)
+forward(20)
+left(90)
+backward(25)
+
+next(10)
+
+left(90)
+forward(30)
+up()
+forward(5)
+down()
+forward(5)
+
+next(-5)
+
+left(90)
+forward(35)
+backward(10)
+right(90)
+forward(20)
+right(90)
+forward(25)
+
+next(10)
+
+left(90)
+forward(50)
+backward(30)
+right(35)
+forward(30)
+backward(30)
+right(90)
+forward(30)
+
+next(40)
+
+left(90)
+forward(50)
+backward(50)
+right(90)
+forward(20)
+left(90)
+forward(50)
+
+next(40)
+
+left(90)
+forward(50)
+right(90)
+forward(20)
+right(90)
+forward(20)
+right(90)
+forward(20)
+left(120)
+forward(40)
+
+next(40)
+
+forward(20)
+backward(20)
+left(90)
+forward(50)
+right(90)
+forward(20)
+
+next(10)
+
+left(90)
+forward(35)
+backward(35)
+right(90)
+forward(15)
+left(90)
+forward(35)
+
+next(10)
+
+left(90)
+forward(50)
+backward(15)
+right(90)
+forward(6)
+backward(12)
+
+next(0)
+
+forward(20)
+backward(20)
+left(90)
+forward(40)
+right(90)
+forward(20)
+right(90)
+forward(20)
+right(90)
+forward(20)
